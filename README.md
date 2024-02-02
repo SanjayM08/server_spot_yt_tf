@@ -1,8 +1,6 @@
-# Spotify Clone using HTML & CSS
+# Spotify and Youtube site Terraform
 
-### Spotify Clone using HTML & CSS
-
-- Spotify Clone using HTML & CSS.
-- I did it as a CSS exercise to practice positioning and layout.
+- Terraform for Spotify, Youtube and Server.
+- Server is that host online on one instance.
 
 ![EC2](/EC2.png)
