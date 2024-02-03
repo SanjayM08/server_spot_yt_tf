@@ -4,7 +4,7 @@ provider "aws" {
   secret_key = "xxxxxxx"
 }
 
-resource "aws_instance" "SPOTIFY" {
+resource "aws_instance" "SEVER" {
   ami           = "ami-05fb0b8c1424f266b"
   instance_type = "t2.micro"
 
@@ -19,10 +19,10 @@ resource "aws_instance" "SPOTIFY" {
               EOF
 
   tags = {
-    Name = "SPOTIFY"
+    Name = "SERVER"
   }
 }
 
 output "public_ip" {
-  value = aws_instance.SPOTIFY.public_ip
+  value = aws_instance.SERVER.public_ip
 }
